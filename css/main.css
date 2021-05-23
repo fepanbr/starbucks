@@ -1,5 +1,62 @@
 body {
-  color: red;
-  font-size: 100px;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+header {
+  display: flex;
+  width: 100%;
+  height: 123px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #F6F5EE;
+}
+
+header .nav-wrapper {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+header .nav-wrapper .logo {
+  width: 75px;
+  height: 75px;
+  background-image: url("/favicon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .nav-wrapper .content-wrapper {
+}
+
+header .nav-wrapper .content-wrapper .site-map {
+  display: flex;
+  height: 62px;
+  justify-content: flex-end;
+}
+
+header .nav-wrapper .content-wrapper .site-map .site-menu {
+  margin-left: 10px;
+}
+header .nav-wrapper .content-wrapper .site-map .site-menu a {
+  text-decoration: none;
+  color: #555
+}
+header .nav-wrapper .content-wrapper .site-map .site-menu a:hover {
+  text-decoration: underline;
+}
+
+header .nav-wrapper .content-wrapper .site-map .site-menu::after {
+  content: "|";
+  margin-left: 10px;
+  color: #555
+}
+
+header .nav-wrapper .content-wrapper .menu-wrapper {
+  display: flex;
+  height: 62px;
+}
+
