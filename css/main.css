@@ -199,8 +199,6 @@ header .main-menu {
   right: 0;
   z-index: 1;
 }
-header .main-menu .item {
-}
 header .main-menu .item .item__name {
   padding: 10px 20px 34px 20px;
   font-family: Arial, sans-serif;
@@ -316,9 +314,6 @@ header .badges .badge {
 }
 .visual .fade-in {
   opacity: 0;
-}
-.notice {
-
 }
 .notice .notice-line {
   position: relative;
@@ -610,8 +605,6 @@ header .badges .badge {
 }
 .season-product .text-group .description{
   margin-bottom: 15px;
-}
-.season-product .text-group .more {
 }
 
 .reserve-coffee {
